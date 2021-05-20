@@ -1,4 +1,10 @@
-const pomidoras = require('./js/pomidoras');
+const Dog = require('./js/Dog');
+const Cat = require('./js/Cat');
 
-console.log(pomidoras(5));
-console.log(pomidoras());
+const rexas = new Dog('Rex', 'brown');
+const brisius = new Dog('Brisius', 'grey');
+const rainis = new Cat('Rainis', 'rainas');
+
+rexas.introduce();
+brisius.introduce();
+rainis.introduce();
